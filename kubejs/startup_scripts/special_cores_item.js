@@ -15,7 +15,4 @@ StartupEvents.registry("item", event => {
         event.create(core).texture("kubejs:item/" + core).glow(true)
     });
     event.create("uncompleted_distribution_core").texture("kubejs:item/uncompleted_distribution_core").glow(true).unstackable()
-
-    console.log("======ids=======")
-    Item.getTypeList().forEach(e => console.log(e))
 })
