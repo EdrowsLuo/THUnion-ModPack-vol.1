@@ -1,7 +1,7 @@
 {
   "dragonDifficulty": {
     "desc:": "Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0",
-    "dragonDifficulty": 2
+    "dragonDifficulty": 10
   },
   "crystalRespawnTimeModifier": {
     "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
@@ -17,7 +17,7 @@
   },
   "printDragonPhases": {
     "desc:": "Prints the dragon phase in chat if enabled: default:false",
-    "printDragonPhases": false
+    "printDragonPhases": true
   },
   "disableDragonAreaSpawns": {
     "desc:": "Disables mob spawning on the Dragon island during the fight: default:true",
