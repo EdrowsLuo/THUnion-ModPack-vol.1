@@ -11,6 +11,7 @@
 /saves
 /schematics
 /shaderpacks
+/resourcepacks
 .qmenu_opened.marker
 hmclversion.cfg
 log4j2.xml
@@ -23,3 +24,5 @@ rhino.local.properties
 *.json
 !/**/*/*.json
 
+config/oculus.properties
+config/powah.json5
