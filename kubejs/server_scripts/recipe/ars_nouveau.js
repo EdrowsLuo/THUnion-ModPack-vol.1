@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: ars_nouveau.agronomic_sourcelink })
     event.remove({ output: ars_nouveau.ritual_flight })
     event.remove({ output: ars_nouveau.mob_jar })
+    event.remove({ output: ars_nouveau.warp_scroll })
 
     event.remove({ type: "ars_nouveau:book_upgrade" })
 
@@ -128,6 +129,44 @@ ServerEvents.recipes(event => {
             "item": "ars_nouveau:mob_jar"
         }
     })
+
+    event.custom({
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "tag": "forge:gems/lapis"
+        },
+        {
+          "tag": "forge:gems/lapis"
+        },
+        {
+          "tag": "forge:gems/lapis"
+        },
+        {
+          "tag": "forge:gems/lapis"
+        },
+        {
+          "item": "ars_nouveau:blank_parchment"
+        },
+        {
+          "item": mekanism.teleportation_core
+        },
+        {
+          "tag": "forge:gems/source"
+        },
+        {
+          "tag": "forge:gems/source"
+        },
+        {
+          "tag": "forge:gems/source"
+        }
+      ],
+      "result": {
+        "item": "ars_nouveau:warp_scroll",
+        "count": 4
+      }
+    })
+    
 })
 
 
