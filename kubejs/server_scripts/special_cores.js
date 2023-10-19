@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
     MakeTeleportationCore(event)
     MakeOreCore(event)
     MakeMagicCore(event)
+    MakeMechanicalCore(event)
     MakeCraftCore(event)
     MakeDistributionCore(event)
 })
