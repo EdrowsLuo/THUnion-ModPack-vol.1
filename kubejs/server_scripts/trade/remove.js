@@ -1,0 +1,4 @@
+
+MoreJSEvents.villagerTrades((event) => {
+
+})

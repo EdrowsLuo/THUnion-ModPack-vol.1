@@ -13,3 +13,20 @@ function moveHalfBlock(entity) {
     entity.x += 0.5
     entity.z += 0.5
 }
+
+function removeTradeWithOutput(event, prof, targetLevel, itemStack) {
+    event.forEachTrades((listing, level, pro) => {
+        if (pro.name() == prof) {
+            if (level == targetLevel) {
+                let toRemove = []
+                listing.forEach(trade => {
+                    if (trade.getOffer(null, null).result.id == itemStack) {
+                        console.log(`trade ${prof} lv${level} ${itemStack} removed: ${trade}`)
+                        toRemove.push(trade)
+                    }
+                })
+                toRemove.forEach(t => listing.remove(t))
+            }
+        }
+    })
+}
