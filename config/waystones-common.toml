@@ -7,10 +7,10 @@
 	blocksPerXpLevel = 1000
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	minimumBaseXpCost = 0.0
+	minimumBaseXpCost = 1
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	maximumBaseXpCost = 3.0
+	maximumBaseXpCost = 10.0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
 	xpCostPerLeashed = 1
@@ -22,7 +22,7 @@
 	globalWaystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpStoneXpCostMultiplier = 0.0
+	warpStoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	waystoneXpCostMultiplier = 1.0
@@ -31,13 +31,13 @@
 	sharestoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from a portstone.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	portstoneXpCostMultiplier = 0.0
+	portstoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpPlateXpCostMultiplier = 0.0
+	warpPlateXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting via the inventory button.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	inventoryButtonXpCostMultiplier = 0.0
+	inventoryButtonXpCostMultiplier = 1.0
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
@@ -45,7 +45,7 @@
 	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
 	restrictRenameToOwner = false
 	#If enabled, waystones generated in worldgen are unbreakable.
-	generatedWaystonesUnbreakable = false
+	generatedWaystonesUnbreakable = true
 	#If enabled, leashed mobs will be teleported with you
 	transportLeashed = true
 	#Whether to take leashed mobs with you when teleporting between dimensions
@@ -62,7 +62,7 @@
 	#Set to true if players should be able to teleport between waystones by simply right-clicking a waystone.
 	allowWaystoneToWaystoneTeleport = true
 	#Set to false to allow non-creative players to make waystones globally activated for all players.
-	globalWaystoneSetupRequiresCreativeMode = true
+	globalWaystoneSetupRequiresCreativeMode = false
 
 [cooldowns]
 	#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
