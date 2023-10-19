@@ -165,6 +165,17 @@
         "value": 1000
       }
     },
+    "l2artifacts:bow_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "apotheosis:prot_shred": {
       "enabled": false,
       "min": {
@@ -185,17 +196,6 @@
       "max": {
         "default": 10000,
         "value": 10000
-      }
-    },
-    "l2artifacts:bow_strength": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
       }
     },
     "forge:reach_distance": {
@@ -308,7 +308,7 @@
         "value": 1000000
       }
     },
-    "ars_nouveau:ars_nouveau.perk.wixie": {
+    "forge:swim_speed": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -319,7 +319,7 @@
         "value": 1024
       }
     },
-    "forge:swim_speed": {
+    "ars_nouveau:ars_nouveau.perk.wixie": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -550,17 +550,6 @@
         "value": 1
       }
     },
-    "apotheosis:armor_shred": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
-      }
-    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -570,6 +559,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "apotheosis:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "minecraft:generic.max_health": {
