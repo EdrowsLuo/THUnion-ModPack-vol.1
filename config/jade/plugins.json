@@ -46,6 +46,9 @@
     "mob_spawner": true,
     "redstone": true
   },
+  "tombstone": {
+    "graves": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
