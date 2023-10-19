@@ -30,19 +30,22 @@ BlockEvents.rightClicked(minecraft.trapped_chest, event => {
 
 EntityEvents.spawned("minecraft:item", event => {
     if(event.entity.item.id == kubejs.uncompleted_distribution_core) {
-        event.server.tell("check spawned nbt: " + event.entity.item.nbt)
         let item = event.entity.item
-        if(item.nbt && item.nbt["Time"]) {
+        if(item.nbt && item.nbt["Time"] && item.nbt["Dim"] == event.level.dimensionId) {
             let currentTime = event.level.getTime()
             if(currentTime - item.nbt.Time < distribution_core_time_limit) {
-                event.server.tell(distanceToSqr(event.entity, item.nbt.X, item.nbt.Y, item.nbt.Z))
                 if(distanceToSqr(event.entity, item.nbt.X, item.nbt.Y, item.nbt.Z) > distribution_core_distance_sqr) {
                     event.entity.item = Item.of(kubejs.distribution_core, 4)
                     return
                 }
             }
         }
-        item.nbt = {Time:event.level.getTime(), X:event.entity.x, Y:event.entity.y, Z:event.entity.z}
+        item.nbt = {
+            Dim: event.level.dimensionId,
+            Time: event.level.getTime(), 
+            X: event.entity.x, 
+            Y: event.entity.y, 
+            Z: event.entity.z}
         event.entity.pickUpDelay = distribution_core_time_limit
     }
 })
