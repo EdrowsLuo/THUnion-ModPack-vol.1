@@ -15,6 +15,18 @@ ServerEvents.recipes(event => {
 })
 
 
+BlockEvents.rightClicked(minecraft.trapped_chest, event => {
+    if(event.item.id == minecraft.name_tag && event.item.hoverName.string == "Mimic") {
+        event.item.shrink(1)
+        event.block.set(minecraft.air)
+        const mimic = event.block.createEntity("artifacts:mimic")
+        moveHalfBlock(mimic)
+        mimic.y += 0.05
+        mimic.spawn()
+    }
+})
+
+
 EntityEvents.spawned("minecraft:item", event => {
     if(event.entity.item.id == kubejs.uncompleted_distribution_core) {
         event.server.tell("check spawned nbt: " + event.entity.item.nbt)

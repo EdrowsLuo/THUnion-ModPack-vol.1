@@ -9,3 +9,7 @@ function distanceToSqr(entity, x, y, z) {
     return d * d + e * e + f * f;
 }
 
+function moveHalfBlock(entity) {
+    entity.x += 0.5
+    entity.z += 0.5
+}
