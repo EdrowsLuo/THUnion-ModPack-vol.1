@@ -1,6 +1,128 @@
 ServerEvents.recipes(event => {
     createFlavorInscriber(event)
-    
+
+    event.remove({ output: ae2.controller })
+    event.remove({ output: ae2.crafting_unit })
+    event.remove({ output: ae2.molecular_assembler })
+    event.remove({ output: ae2.me_p2p_tunnel })
+
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "a": {
+                "item": "ae2:smooth_sky_stone_block"
+            },
+            "b": {
+                "item": "ae2:fluix_crystal"
+            },
+            "c": {
+                "item": "ae2:engineering_processor"
+            },
+            "d": {
+                "item": kubejs.craft_core
+            },
+            "e": {
+                "item": ars_nouveau.bookwyrm_charm
+            },
+            "f": {
+                "item": ars_nouveau.wixie_charm
+            }
+        },
+        "pattern": [
+            "abd",
+            "ecf",
+            "dba"
+        ],
+        "result": {
+            "item": "ae2:controller"
+        }
+    })
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "a": {
+                "tag": "forge:ingots/iron"
+            },
+            "b": {
+                "item": "ae2:calculation_processor"
+            },
+            "c": {
+                "item": "ae2:fluix_glass_cable"
+            },
+            "d": {
+                "item": "ae2:logic_processor"
+            },
+            "e": {
+                "item": kubejs.craft_core
+            }
+        },
+        "pattern": [
+            "abe",
+            "cdc",
+            "eba"
+        ],
+        "result": {
+            "item": "ae2:crafting_unit"
+        }
+    })
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "a": {
+                "tag": "forge:ingots/iron"
+            },
+            "b": {
+                "item": ars_nouveau.wixie_charm
+            },
+            "c": {
+                "item": "ae2:annihilation_core"
+            },
+            "d": {
+                "item": "minecraft:crafting_table"
+            },
+            "e": {
+                "item": "ae2:formation_core"
+            },
+            "f": {
+                "item": kubejs.craft_core
+            }
+        },
+        "pattern": [
+            "abf",
+            "cde",
+            "fba"
+        ],
+        "result": {
+            "item": "ae2:molecular_assembler",
+            "count": 2
+        }
+    })
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "a": {
+                "tag": "forge:ingots/iron"
+            },
+            "b": {
+                "item": "ae2:engineering_processor"
+            },
+            "c": {
+                "tag": "ae2:all_fluix"
+            },
+            "d": {
+                "item": mekanism.teleportation_core
+            }
+        },
+        "pattern": [
+            " a ",
+            "aba",
+            "cdc"
+        ],
+        "result": {
+            "item": "ae2:me_p2p_tunnel",
+            "count": 2
+        }
+    })
 })
 
 function createFlavorInscriber(event) {
