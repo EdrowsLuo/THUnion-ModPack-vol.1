@@ -1,3 +1,16 @@
 {
-  
+    "item.kubejs.battle_core": "战斗核心",
+    "item.kubejs.craft_core": "合成核心",
+    "item.kubejs.distribution_core": "物流核心",
+    "item.kubejs.flight_core": "飞行核心",
+    "item.kubejs.flight_core.desc": "幻翼膜在500格以上时转化而成",
+    "item.kubejs.life_core": "生命核心",
+    "item.kubejs.life_core.desc": "把你自己丢进粉碎轮",
+    "item.kubejs.magic_core": "魔法核心",
+    "item.kubejs.mechanical_core": "动力核心",
+    "item.kubejs.ore_core": "矿物核心",
+    "item.kubejs.treasure_core": "宝藏核心",
+    "item.kubejs.treasure_core.desc": "开启宝箱和击杀宝箱怪时有概率获得。使用命名为\"Mimic\"的命名牌打开陷阱箱可以召唤宝箱怪。",
+    "item.kubejs.uncompleted_distribution_core": "未完成的物流核心",
+    "item.kubejs.uncompleted_distribution_core.desc": "两次变成掉落物形态的间隔低于1秒且距离大于20格时转变为物流核心"
 }
