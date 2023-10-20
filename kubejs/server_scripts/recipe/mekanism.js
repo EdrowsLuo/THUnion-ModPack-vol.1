@@ -13,13 +13,25 @@ ServerEvents.recipes(event => {
         mekanism.mekasuit_boots,
         mekanism.mekasuit_helmet,
         mekanism.mekasuit_pants,
-        mekanism.cardboard_box
+        mekanism.cardboard_box,
+        mekanismgenerators.wind_generator,
+        mekanismgenerators.gas_burning_generator,
+        mekanismgenerators.solar_generator,
+        mekanismgenerators.advanced_solar_generator,
+        mekanismgenerators.bio_generator,
     ]
 
     Object.keys(mekanism).forEach(k => {
         if(k.startsWith("module_") && k.endsWith("_unit")) {
             bannedItem.push(mekanism[k])
         }
+    })
+
+    ["basic", "advanced", "elite", "ultimate"].forEach(tie => {
+        ["universal_cable", "mechanical_pipe", "pressurized_tube", "logistical_transporter"].forEach(t => {
+            let pipe = `${tie}_${t}`
+            event.remove({ output: mekanism[pipe]})
+        })
     })
 
     bannedItem.forEach(e => event.remove({ output: e}))
