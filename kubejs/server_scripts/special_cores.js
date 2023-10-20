@@ -2,9 +2,9 @@
 
 // Visit the wiki for more info - https://kubejs.com/
 
-const distribution_core_time_limit = 20 * 3
-const distribution_core_distance_sqr = 30**2
-const flight_core_hight = 100
+const distribution_core_time_limit = 20 * 1
+const distribution_core_distance_sqr = 20**2
+const flight_core_hight = 500
 
 ServerEvents.recipes(event => {
     MakeTeleportationCore(event)
