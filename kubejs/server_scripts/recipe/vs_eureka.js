@@ -2,7 +2,6 @@ ServerEvents.recipes(event => {
     console.info('瓦尔基里天空&植物魔法联动')
     Craftengine(event)
     Craftballon(event)
-    Washballon(event)
 })
 function Craftengine(event){
     event.remove({ output:"vs_eureka:engine" })
