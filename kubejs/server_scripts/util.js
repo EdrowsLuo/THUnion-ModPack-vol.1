@@ -30,3 +30,7 @@ function removeTradeWithOutput(event, prof, targetLevel, itemStack) {
         }
     })
 }
+
+function ban(event, items) {
+    items.forEach(i => event.remove({ output: i }))
+}
