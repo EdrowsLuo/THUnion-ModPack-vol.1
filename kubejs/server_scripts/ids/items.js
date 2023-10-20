@@ -1065,6 +1065,114 @@ const ars_creo = {
 }
 
 
+const ars_elemental = {
+    acceleration_prism_lens: "ars_elemental:acceleration_prism_lens",
+    advanced_prism: "ars_elemental:advanced_prism",
+    air_bangle: "ars_elemental:air_bangle",
+    air_boots: "ars_elemental:air_boots",
+    air_caster_tome: "ars_elemental:air_caster_tome",
+    air_focus: "ars_elemental:air_focus",
+    air_hat: "ars_elemental:air_hat",
+    air_leggings: "ars_elemental:air_leggings",
+    air_robes: "ars_elemental:air_robes",
+    air_turret: "ars_elemental:air_turret",
+    air_upstream: "ars_elemental:air_upstream",
+    anima_caster_tome: "ars_elemental:anima_caster_tome",
+    anima_essence: "ars_elemental:anima_essence",
+    aqua_boots: "ars_elemental:aqua_boots",
+    aqua_hat: "ars_elemental:aqua_hat",
+    aqua_leggings: "ars_elemental:aqua_leggings",
+    aqua_robes: "ars_elemental:aqua_robes",
+    arc_prism_lens: "ars_elemental:arc_prism_lens",
+    base_bangle: "ars_elemental:base_bangle",
+    caster_bag: "ars_elemental:caster_bag",
+    curio_bag: "ars_elemental:curio_bag",
+    debug: "ars_elemental:debug",
+    deceleration_prism_lens: "ars_elemental:deceleration_prism_lens",
+    earth_bangle: "ars_elemental:earth_bangle",
+    earth_boots: "ars_elemental:earth_boots",
+    earth_caster_tome: "ars_elemental:earth_caster_tome",
+    earth_focus: "ars_elemental:earth_focus",
+    earth_hat: "ars_elemental:earth_hat",
+    earth_leggings: "ars_elemental:earth_leggings",
+    earth_robes: "ars_elemental:earth_robes",
+    earth_turret: "ars_elemental:earth_turret",
+    everfull_urn: "ars_elemental:everfull_urn",
+    fire_bangle: "ars_elemental:fire_bangle",
+    fire_boots: "ars_elemental:fire_boots",
+    fire_caster_tome: "ars_elemental:fire_caster_tome",
+    fire_focus: "ars_elemental:fire_focus",
+    fire_hat: "ars_elemental:fire_hat",
+    fire_leggings: "ars_elemental:fire_leggings",
+    fire_robes: "ars_elemental:fire_robes",
+    fire_turret: "ars_elemental:fire_turret",
+    firenando_charm: "ars_elemental:firenando_charm",
+    firenando_familiar: "ars_elemental:firenando_familiar",
+    flashpine_pod: "ars_elemental:flashpine_pod",
+    glyph_aerial_filter: "ars_elemental:glyph_aerial_filter",
+    glyph_aquatic_filter: "ars_elemental:glyph_aquatic_filter",
+    glyph_bubble_shield: "ars_elemental:glyph_bubble_shield",
+    glyph_charm: "ars_elemental:glyph_charm",
+    glyph_conjure_terrain: "ars_elemental:glyph_conjure_terrain",
+    glyph_curved_projectile: "ars_elemental:glyph_curved_projectile",
+    glyph_discharge: "ars_elemental:glyph_discharge",
+    glyph_fiery_filter: "ars_elemental:glyph_fiery_filter",
+    glyph_homing_projectile: "ars_elemental:glyph_homing_projectile",
+    glyph_insect_filter: "ars_elemental:glyph_insect_filter",
+    glyph_life_link: "ars_elemental:glyph_life_link",
+    glyph_not_aerial_filter: "ars_elemental:glyph_not_aerial_filter",
+    glyph_not_aquatic_filter: "ars_elemental:glyph_not_aquatic_filter",
+    glyph_not_fiery_filter: "ars_elemental:glyph_not_fiery_filter",
+    glyph_not_insect_filter: "ars_elemental:glyph_not_insect_filter",
+    glyph_not_summon_filter: "ars_elemental:glyph_not_summon_filter",
+    glyph_not_undead_filter: "ars_elemental:glyph_not_undead_filter",
+    glyph_phantom_grasp: "ars_elemental:glyph_phantom_grasp",
+    glyph_poison_spores: "ars_elemental:glyph_poison_spores",
+    glyph_propagator_arc: "ars_elemental:glyph_propagator_arc",
+    glyph_propagator_homing: "ars_elemental:glyph_propagator_homing",
+    glyph_summon_filter: "ars_elemental:glyph_summon_filter",
+    glyph_undead_filter: "ars_elemental:glyph_undead_filter",
+    glyph_watery_grave: "ars_elemental:glyph_watery_grave",
+    homing_prism_lens: "ars_elemental:homing_prism_lens",
+    lesser_air_focus: "ars_elemental:lesser_air_focus",
+    lesser_earth_focus: "ars_elemental:lesser_earth_focus",
+    lesser_fire_focus: "ars_elemental:lesser_fire_focus",
+    lesser_water_focus: "ars_elemental:lesser_water_focus",
+    magma_upstream: "ars_elemental:magma_upstream",
+    manipulation_turret: "ars_elemental:manipulation_turret",
+    mark_of_mastery: "ars_elemental:mark_of_mastery",
+    mermaid_rock: "ars_elemental:mermaid_rock",
+    necrotic_focus: "ars_elemental:necrotic_focus",
+    piercing_prism_lens: "ars_elemental:piercing_prism_lens",
+    rainbow_prism_lens: "ars_elemental:rainbow_prism_lens",
+    ritual_attraction: "ars_elemental:ritual_attraction",
+    ritual_detection: "ars_elemental:ritual_detection",
+    ritual_repulsion: "ars_elemental:ritual_repulsion",
+    ritual_squirrels: "ars_elemental:ritual_squirrels",
+    ritual_tesla_coil: "ars_elemental:ritual_tesla_coil",
+    siren_charm: "ars_elemental:siren_charm",
+    siren_familiar: "ars_elemental:siren_familiar",
+    siren_shards: "ars_elemental:siren_shards",
+    spell_horn: "ars_elemental:spell_horn",
+    spell_mirror: "ars_elemental:spell_mirror",
+    spore_blossom_up: "ars_elemental:spore_blossom_up",
+    stripped_yellow_archwood: "ars_elemental:stripped_yellow_archwood",
+    stripped_yellow_archwood_log: "ars_elemental:stripped_yellow_archwood_log",
+    thread_shock: "ars_elemental:thread_shock",
+    thread_spore: "ars_elemental:thread_spore",
+    thread_summon: "ars_elemental:thread_summon",
+    water_bangle: "ars_elemental:water_bangle",
+    water_caster_tome: "ars_elemental:water_caster_tome",
+    water_focus: "ars_elemental:water_focus",
+    water_turret: "ars_elemental:water_turret",
+    water_upstream: "ars_elemental:water_upstream",
+    yellow_archwood: "ars_elemental:yellow_archwood",
+    yellow_archwood_leaves: "ars_elemental:yellow_archwood_leaves",
+    yellow_archwood_log: "ars_elemental:yellow_archwood_log",
+    yellow_archwood_sapling: "ars_elemental:yellow_archwood_sapling",
+}
+
+
 const ars_nouveau = {
     abjuration_essence: "ars_nouveau:abjuration_essence",
     agronomic_sourcelink: "ars_nouveau:agronomic_sourcelink",
@@ -4716,6 +4824,13 @@ const easy_villagers = {
 }
 
 
+const enderstorage = {
+    ender_chest: "enderstorage:ender_chest",
+    ender_pouch: "enderstorage:ender_pouch",
+    ender_tank: "enderstorage:ender_tank",
+}
+
+
 const endrem = {
     ancient_portal_frame: "endrem:ancient_portal_frame",
     black_eye: "endrem:black_eye",
@@ -5010,6 +5125,11 @@ const ftbquests = {
     screen_5: "ftbquests:screen_5",
     screen_7: "ftbquests:screen_7",
     stage_barrier: "ftbquests:stage_barrier",
+}
+
+
+const gateways = {
+    gate_pearl: "gateways:gate_pearl",
 }
 
 
@@ -6182,6 +6302,43 @@ const mekanism = {
     uranium_ore: "mekanism:uranium_ore",
     uranium_oxide_bucket: "mekanism:uranium_oxide_bucket",
     yellow_cake_uranium: "mekanism:yellow_cake_uranium",
+}
+
+
+const mekanismgenerators = {
+    advanced_solar_generator: "mekanismgenerators:advanced_solar_generator",
+    bio_generator: "mekanismgenerators:bio_generator",
+    bioethanol_bucket: "mekanismgenerators:bioethanol_bucket",
+    control_rod_assembly: "mekanismgenerators:control_rod_assembly",
+    deuterium_bucket: "mekanismgenerators:deuterium_bucket",
+    electromagnetic_coil: "mekanismgenerators:electromagnetic_coil",
+    fission_fuel_assembly: "mekanismgenerators:fission_fuel_assembly",
+    fission_reactor_casing: "mekanismgenerators:fission_reactor_casing",
+    fission_reactor_logic_adapter: "mekanismgenerators:fission_reactor_logic_adapter",
+    fission_reactor_port: "mekanismgenerators:fission_reactor_port",
+    fusion_fuel_bucket: "mekanismgenerators:fusion_fuel_bucket",
+    fusion_reactor_controller: "mekanismgenerators:fusion_reactor_controller",
+    fusion_reactor_frame: "mekanismgenerators:fusion_reactor_frame",
+    fusion_reactor_logic_adapter: "mekanismgenerators:fusion_reactor_logic_adapter",
+    fusion_reactor_port: "mekanismgenerators:fusion_reactor_port",
+    gas_burning_generator: "mekanismgenerators:gas_burning_generator",
+    heat_generator: "mekanismgenerators:heat_generator",
+    hohlraum: "mekanismgenerators:hohlraum",
+    laser_focus_matrix: "mekanismgenerators:laser_focus_matrix",
+    module_geothermal_generator_unit: "mekanismgenerators:module_geothermal_generator_unit",
+    module_solar_recharging_unit: "mekanismgenerators:module_solar_recharging_unit",
+    reactor_glass: "mekanismgenerators:reactor_glass",
+    rotational_complex: "mekanismgenerators:rotational_complex",
+    saturating_condenser: "mekanismgenerators:saturating_condenser",
+    solar_generator: "mekanismgenerators:solar_generator",
+    solar_panel: "mekanismgenerators:solar_panel",
+    tritium_bucket: "mekanismgenerators:tritium_bucket",
+    turbine_blade: "mekanismgenerators:turbine_blade",
+    turbine_casing: "mekanismgenerators:turbine_casing",
+    turbine_rotor: "mekanismgenerators:turbine_rotor",
+    turbine_valve: "mekanismgenerators:turbine_valve",
+    turbine_vent: "mekanismgenerators:turbine_vent",
+    wind_generator: "mekanismgenerators:wind_generator",
 }
 
 
@@ -8685,6 +8842,28 @@ const sophisticatedbackpacks = {
 }
 
 
+const starbunclemania = {
+    direction_scroll: "starbunclemania:direction_scroll",
+    fluid_jar: "starbunclemania:fluid_jar",
+    fluid_scroll_allow: "starbunclemania:fluid_scroll_allow",
+    fluid_scroll_deny: "starbunclemania:fluid_scroll_deny",
+    fluid_sourcelink: "starbunclemania:fluid_sourcelink",
+    glyph_pickup_fluid: "starbunclemania:glyph_pickup_fluid",
+    glyph_place_fluid: "starbunclemania:glyph_place_fluid",
+    source_condenser: "starbunclemania:source_condenser",
+    source_fluid_bucket: "starbunclemania:source_fluid_bucket",
+    star_balloon: "starbunclemania:star_balloon",
+    star_battery: "starbunclemania:star_battery",
+    star_bin: "starbunclemania:star_bin",
+    star_bucket: "starbunclemania:star_bucket",
+    star_hat: "starbunclemania:star_hat",
+    star_saddle: "starbunclemania:star_saddle",
+    star_sword: "starbunclemania:star_sword",
+    star_wand: "starbunclemania:star_wand",
+    wyrm_degree: "starbunclemania:wyrm_degree",
+}
+
+
 const storagedrawers = {
     acacia_full_drawers_1: "storagedrawers:acacia_full_drawers_1",
     acacia_full_drawers_2: "storagedrawers:acacia_full_drawers_2",
@@ -9317,13 +9496,6 @@ const waystones = {
 
 const zerocore = {
     debugtool: "zerocore:debugtool",
-}
-
-
-const enderstorage = {
-    ender_chest: "enderstorage:ender_chest",
-    ender_tank: "enderstorage:ender_tank",
-    ender_pouch: "enderstorage:ender_pouch",
 }
 
 
