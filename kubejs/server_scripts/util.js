@@ -1,3 +1,32 @@
+
+let MOD = (domain, id, x) => (x ? `${x}x ` : "") + (id.startsWith('#') ? '#' : "") + domain + ":" + id.replace('#', '')
+let AE2 = (id, x) => MOD("ae2", id, x)
+let MC = (id, x) => MOD("minecraft", id, x)
+let KJ = (id, x) => MOD("kubejs", id, x)
+
+
+/**
+ * 创建一个不消耗的工具手使用配方
+ * @param {*} output
+ * @param {*} input
+ * @param {*} tool 使用的工具（不消耗）
+ * @returns 
+ */
+function ifiniDeploying(output, input, tool) {
+	return {
+		"type": "create:deploying",
+		"ingredients": [
+			Ingredient.of(input).toJson(),
+			Ingredient.of(tool).toJson()
+		],
+		"results": [
+			Item.of(output).toResultJson()
+		],
+		"keepHeldItem": true
+	}
+}
+
+
 function getEntitiesByItemId(level, item_id) {
     return level.getEntities().getAll().filter(item => item.type == "minecraft:item" && item.item.id == item_id)
 }
