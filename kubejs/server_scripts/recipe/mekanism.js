@@ -19,6 +19,8 @@ ServerEvents.recipes(event => {
         mekanismgenerators.solar_generator,
         mekanismgenerators.advanced_solar_generator,
         mekanismgenerators.bio_generator,
+        mekanism.restrictive_transporter,
+        mekanism.diversion_transporter
     ]
 
     Object.keys(mekanism).forEach(k => {
@@ -27,8 +29,11 @@ ServerEvents.recipes(event => {
         }
     })
 
-    ["basic", "advanced", "elite", "ultimate"].forEach(tie => {
-        ["universal_cable", "mechanical_pipe", "pressurized_tube", "logistical_transporter"].forEach(t => {
+    const ties = ["basic", "advanced", "elite", "ultimate"]
+    const pipeTypes = ["universal_cable", "mechanical_pipe", "pressurized_tube", "logistical_transporter"]
+
+    ties.forEach(tie => {
+        pipeTypes.forEach(t => {
             let pipe = `${tie}_${t}`
             event.remove({ output: mekanism[pipe]})
         })
