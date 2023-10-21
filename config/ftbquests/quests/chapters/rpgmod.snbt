@@ -7,14 +7,228 @@
 	id: "6B72932EEEE598E0"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "55BFA7854EA3CF17"
-		tasks: [{
-			id: "68EE60CAF39159A2"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"灾变是一个增加了困难的地牢、具有挑战性的 Boss 和强大装备的模组。"
+				"本模组添加了 5 个精细的 Boss 和 5 个小 Boss，每个 Boss 都有自己的结构和独特技能，以及有特殊能力的掉落装备。"
+			]
+			icon: "cataclysm:altar_of_abyss"
+			id: "55BFA7854EA3CF17"
+			tasks: [
+				{
+					id: "68EE60CAF39159A2"
+					type: "checkmark"
+				}
+				{
+					id: "794C0FAC287482B8"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+			]
+			title: "灾变"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"游戏开始时，为普通模式。玩家第一次进入其他维度时，开启专家模式。玩家击败末影龙时，开启大师模式。"
+				"随着难度的提高，玩家会获得更丰厚的奖励，但与此同时，敌对生物对玩家也会造成更强的负面效果。"
+				""
+				"流血机制会让你很难受，多准备一定绷带吧。"
+			]
+			id: "0757F7245DE1DAAD"
+			rewards: [{
+				count: 8
+				id: "6B111C2B0D792109"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6177288105649BF2"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			title: "Majrusz的进阶难度"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["基于原版的工具与武器改造模组，类似于匠魂，可以实现一个工具拥有多种功能及属性的加强"]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "ac4b0732-06c2-4f81-9e4a-b111f074a646"
+				}
+			}
+			id: "7E414065F7FB87F0"
+			rewards: [{
+				id: "3F69E1AC56386DA4"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "core/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "frame/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+						id: "9503de92-046c-4d61-8afe-8c0d71c6afae"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "637FCB7883A563CA"
+				type: "checkmark"
+			}]
+			title: "Tetra"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"本 Mod 拥有数种蕴含力量的古遗物供玩家装配。"
+				"大部分古遗物的稀有度分为五个等级，即使是同种古遗物也有多种不同的稀有度，目前仅可通过战胜强大的敌对生物掉落获得。同系列的古遗物成套组合能够带来强大的效果。当然玩家也可以自由组合不同系列的古遗物。通过挑战 100、200、300、400、500 血量的敌对生物来获取不同品质的未鉴定古遗物，鉴定后随机获得某品质的古遗物。"
+				""
+				"此外还有一些强力的关键附魔以及一些独特的挑战。"
+			]
+			icon: "l2artifacts:random_1"
+			id: "367E48D8E1D1DE32"
+			rewards: [{
+				id: "4D7D2F180F7FB460"
+				item: "l2artifacts:random_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6244EAE11432D8E3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "l2artifacts:artifact"
+					}
+				}
+				title: "Any #l2artifacts:artifact"
+				type: "item"
+			}]
+			title: "莱特兰系列"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"更多的附魔！带词缀的装备！更高级的刷怪笼！以及身边不断出现的精英级kuai怪di物yuan！"
+				"战胜他们，获得更好的装备吧！目标是更快，更高，更强！"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "6468AB3B1636873B"
+			rewards: [{
+				id: "287ABAB1D76D6409"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4B028CB4123658"
+				type: "checkmark"
+			}]
+			title: "神化"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["天境传送门构造为萤石加水，由空岛组成，在这一维度有三个boss。"]
+			icon: "aether:aether_portal_frame"
+			id: "55CA63655199985A"
+			tasks: [
+				{
+					id: "5AF8E6C2C26FC380"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					dimension: "aether:the_aether"
+					id: "5566BA03B54E6880"
+					type: "dimension"
+				}
+			]
+			title: "天界"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"蔚蓝浩空增加了两个维度，每个维度都包含一个具有四个Boss之二的地牢。"
+				"请注意，在蔚蓝浩空的维度中，您只能使用该mod的物品，其他世界的物品效果将会极大幅度削弱"
+			]
+			icon: {
+				Count: 1b
+				id: "blue_skies:zeal_lighter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AD11911AEDFB915"
+			tasks: [
+				{
+					dimension: "blue_skies:everbright"
+					id: "0BA9E9D5E9E23AE0"
+					type: "dimension"
+				}
+				{
+					dimension: "blue_skies:everdawn"
+					id: "71E8B4928D7BDC99"
+					type: "dimension"
+				}
+			]
+			title: "蔚蓝浩空"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"被指到的人给我变美少女！"
+				""
+				"Yes Steve Model 模组是一个修改原版玩家模型的 Minecraft Forge 模组。"
+				""
+				"默认情况下alt+y即可打开配置页面。"
+			]
+			icon: "botania:corporea_spark"
+			id: "00F50C1B130F3CA1"
+			size: 2.0d
+			tasks: [{
+				id: "58EECDFF97183BF1"
+				title: "变成美少女吧！"
+				type: "checkmark"
+			}]
+			title: "Yes Steve Mod"
+			x: 1.5d
+			y: -3.5d
+		}
+	]
 	title: "RPG类mod"
 }

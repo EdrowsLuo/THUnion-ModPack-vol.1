@@ -7,14 +7,113 @@
 	id: "4462665EB5648037"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "1FD82095808498B2"
-		tasks: [{
-			id: "7154EFD719ADF189"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			description: ["精致的自动化流水线，游戏内教程详细，不多赘述"]
+			icon: "create:blaze_burner"
+			id: "3722E8BF02B2B8DA"
+			rewards: [{
+				id: "4011ACEE71D7B5E8"
+				item: "create:wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "484BD4585C2EA587"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "机械动力"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"核裂变、核聚变、反物质装置，"
+				"以及二倍，三倍，四倍最后五倍的矿物生产线，享受多方块结构在手中成型的过程正是mod乐趣的一环，不是么？"
+			]
+			icon: "mekanism:steel_casing"
+			id: "4A982222C1039384"
+			tasks: [{
+				id: "74A77BCE34CD55FE"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "通用机械"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"模组中增加了多方块结构的反应堆能源系统，高输出RF能量模组的主旨是建立大型的多方块结构反应堆，反应堆结构占地至少为3x3x3，以黄铀锭作为燃料运作——产生热量并释放能量。"
+				"反应堆的能量可以通过反应堆能源接口输出到能量单元或用电设备。除此之外，玩家还可以向反应堆结构加装一些扩展组件，例如红石接口，以此来更有效的控制反应堆属性；例如最大输出能量的百分比。"
+			]
+			icon: "bigreactors:basic_reactorfuelrod"
+			id: "4DE487CF5481A4A6"
+			tasks: [{
+				id: "52B1C7D4B8C3693C"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			title: "极限反应堆"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["Powah! 是一个比较强大的科技模组，添加了多种产出、存储、运输 FE 能量的方式，此模组的各类发电机比很多模组的发电机更为强大且易于制作"]
+			icon: "powah:book"
+			id: "0AFA71E222B28E9E"
+			rewards: [{
+				id: "57B94BD05E4E253A"
+				item: "powah:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7101045912B18745"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "Powah!"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: ["通量网络能让玩家创建无线能量网络，通过能量连接点进行无线能量传输，使玩家不再需要花费时间来布置大量线缆，还可以对玩家快捷栏、装甲栏和饰品栏的物品进行无线充能"]
+			icon: "fluxnetworks:flux_plug"
+			id: "0C4E5612C8405F52"
+			tasks: [{
+				id: "6CE6F82D5C71E269"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "通量网络"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"著名的物流模组 AE，上手难度较大，建议配合教程和老手指导游玩。"
+				""
+				"&m真正的科技模组，没有AE的整合包不能叫科技整合包"
+			]
+			icon: "ae2:controller"
+			id: "67EB1944669EA037"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5345F0CEDAAE903C"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "04FCC7EED99A27AA"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "应用能源2"
+			x: 1.0d
+			y: -3.0d
+		}
+	]
 	title: "科技"
 }

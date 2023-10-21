@@ -7,14 +7,195 @@
 	id: "563F20DF44910B16"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "2749971F8F87D18D"
-		tasks: [{
-			id: "1FECAE6D33842388"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			description: [
+				"Supplementaries 为游戏增加了很多美观且实用的物品，在生活质量、装饰建筑和红石器械上都有非常多的额外内容和调整。"
+				"模组中几乎每一个物品都与原版的内容具有非常高的互动性，并且其美术风格也能很好地融入其中。"
+				""
+				"我猜你需要一个水龙头来给机械动力的锅炉供水。"
+			]
+			icon: "supplementaries:globe"
+			id: "710C73FB843357E6"
+			tasks: [
+				{
+					id: "34F170A996E7E31E"
+					item: "supplementaries:globe"
+					type: "item"
+				}
+				{
+					id: "079FE6271C23BAFF"
+					item: "supplementaries:faucet"
+					type: "item"
+				}
+			]
+			title: "精致装饰"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"就像皮皮鲁一样，用方向盘开走你的房子！想要加速？试试用一用来自魔法与科技的力量制造引擎。"
+				"想要不再被地心引力束缚？那就尽力取得飞行核心，让气球带你翱翔"
+			]
+			icon: "vs_eureka:anchor"
+			id: "2C9B2E604493BC38"
+			tasks: [
+				{
+					id: "3D76871246A74D87"
+					item: "vs_eureka:engine"
+					type: "item"
+				}
+				{
+					id: "70CDFB2CA2E570E9"
+					item: "vs_eureka:balloon"
+					type: "item"
+				}
+			]
+			title: "瓦尔基里的天空"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"本模组添加了一个在激活后可将玩家传送至其所在位置的传送石碑和一些实用性的传送道具，免去了玩家长途跋涉的烦恼。玩家可通过瞬移卷轴、传送石等回到传送石碑。传送石碑需要激活后才能使用，空手潜行右键可重命名石碑。"
+				""
+				"你还可以设置为全局石碑来别人访问你的家。"
+				""
+				"ps: 自然生成的石碑现在不允许破坏了！"
+			]
+			icon: "waystones:waystone"
+			id: "01736C8B08ACBCAB"
+			rewards: [{
+				id: "30576EB6D1447526"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70A6C83DBA770203"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "传送石碑"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["可以禁止物品描述范围内的生物刷新，三种火把各有各的优势。"]
+			icon: "magnumtorch:diamond_magnum_torch"
+			id: "0F2DD749036BD46B"
+			tasks: [{
+				id: "654C23458239F8CC"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "火把大师"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"该Mod使你能够更方便、快捷的进行与村民相关的操作。"
+				"Shift+右键或按下快捷键（默认V键）即可拾起村民；右键任意位置即可放出。拾起的村民右键该Mod添加的方块中，即可将其放入；对内部装有村民的方块Shift+右键，即可取出。"
+			]
+			icon: "easy_villagers:villager"
+			id: "30A1B1EF514E99B5"
+			tasks: [{
+				id: "4EE459A97533429F"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			title: "简易村民"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"死亡后不再完全丢失自己的物品，而是放入坟墓（开启 PVP 模式的话坟墓可以抢夺），具有生存性和维度传送特点（注意！在传送门方块上死亡墓碑将无法生成，从而失去物品！）。"
+				"同时还加入了一个技能树：死亡知识，以及一种借助于灵魂附魔的魔法系统。"
+			]
+			icon: {
+				Count: 1b
+				id: "tombstone:decorative_grave_simple"
+				tag: {
+					model_texture: 0
+				}
+			}
+			id: "3ADF80000CEB5D4A"
+			tasks: [{
+				id: "4C4B3B2DCA16AD3F"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			title: "Corail的墓碑"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"拿在手中时右击可以打开GUI，从中你可以搜索，选中并查看一个生物群系的信息。潜行+右击可以重置指南针的状态。"
+				"当你没有选定生物群落时，它会指向重生点。选定后，它会指向附近的指定群落。自然指南针支持所有生物群落。"
+			]
+			id: "433D06520243A895"
+			tasks: [{
+				id: "3B35D77EE81EB9A1"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"旅行锚是一个允许玩家传送至其他旅行锚或传送台的机器。当站玩家在一个旅行锚上方时，所有其他的旅行锚或传送台都会出现在视野中。"
+				"当玩家把准星对上一个其他的旅行锚时，它将会转变为红色，此时玩家跳起或潜行的话就会传送到目标旅行锚的上方。"
+				"如果玩家脚下旅行锚正上/下方有另一个旅行锚且没有选中任何目标旅行锚，按跳跃/潜行可以传送到上/下方的旅行锚上。请注意只能传送到加载的区块内。"
+				"手持旅行权杖可以在传送范围内的任意位置传送到旅行锚之上。"
+			]
+			id: "2A9061C698E23456"
+			tasks: [
+				{
+					id: "5CA1851E1A9A47C9"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "0E31A9B19DC42B08"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: ["手持时间之瓶对方块右键使用，第一次消耗瓶内30秒，此后每次右击消耗量成倍增加，每次右击都会使方块增加一倍的更新速度，可叠加，持续30秒。"]
+			id: "160E698154541DCC"
+			tasks: [{
+				id: "5C3A64E14EFF290F"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 1880
+						totalAccumulatedTime: 1880
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
 	title: "高质量生活"
 }

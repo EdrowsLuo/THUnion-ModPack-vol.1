@@ -7,14 +7,151 @@
 	id: "29C78DB57B57D247"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "01F2D513938EF250"
-		tasks: [{
-			id: "283108B57480CD32"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			description: ["本模组提供了多种存储抽屉用于存放大量物品，放置物品为右键，取出物品为潜行右键。"]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "07B0E0367A9261AD"
+			rewards: [{
+				id: "334092B22CDCCC5D"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			tasks: [{
+				id: "003F5A76090245D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "储物抽屉"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"小巧强大，可以在同维度128格内代理另外一个方块。"
+				"不仅可以实现用一个方块来操作另一个方块的六个面，更能通过“吸收”被绑定方块的“能力”实现物品、流体、能量的远程无线传输。"
+			]
+			icon: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "2858FCA22C86648E"
+			tasks: [{
+				id: "7751C39528503EF2"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "纠缠方块"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"虽然我们做不到流浪地球，但是有了足够的升级，你可以把整个家园带出去流浪！更别提可以直接使用背包里的东西来合成，来处理！"
+				""
+				"考虑到优化前期体验，这个背包就先送给你了哦！"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "38183004D64AE07D"
+			rewards: [{
+				id: "5E7614E58F1F2359"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "487948F29F4F9B57"
+				type: "checkmark"
+			}]
+			title: "精妙背包"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"跨维度，同频道高效率传送物品和流体（懒人福利x）"
+				""
+				"你可能需要一个这个来从地狱获取流体。"
+				""
+				"&4切勿占用初始频道！最好是先配置好频道再使用，建议和服务器内的其他人沟通以避免串频道。"
+			]
+			id: "431708831965630C"
+			tasks: [
+				{
+					count: 2L
+					id: "2CEB6123C0071750"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0393C3F51E5DA872"
+					item: "enderstorage:ender_tank"
+					type: "item"
+				}
+			]
+			title: "末影存储"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"高效的管道运输。"
+				""
+				"通用机械的管道已经被禁止了，还是用这个吧。"
+			]
+			id: "48E487FB8CBA9D1F"
+			rewards: [{
+				id: "517956CAD63E0753"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3281711876222A29"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"从其他容器抽取物品到路由器，从路由器发送物品到其他容器。"
+				"破坏方块，放置方块，吸收掉落的物品，将容器内的物品投掷到地上，排序物品，与玩家的背包栏远程互动，延伸和缩进一整行的方块。"
+			]
+			icon: "modularrouters:modular_router"
+			id: "0BA46DD7E1EE7554"
+			rewards: [{
+				id: "49971221FCC91481"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AB7B6060194C23"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			title: "模块化路由器"
+			x: 2.5d
+			y: -0.5d
+		}
+	]
 	title: "存储和自动化"
 }

@@ -7,14 +7,77 @@
 	id: "11DCD6F457D09A44"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "57DC29D2945CE2E1"
-		tasks: [{
-			id: "221C92ABAC11EB6B"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			description: [
+				"各种功能的魔法花来帮助实现自动化，强力的装备以及一个BOSS挑战。"
+				""
+				"你的第一个自动矿场可能得靠它了。"
+			]
+			icon: "botania:white_mystical_flower"
+			id: "57DC29D2945CE2E1"
+			rewards: [
+				{
+					id: "6457660DEB934F0F"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "0586E991872AAED0"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "221C92ABAC11EB6B"
+					type: "checkmark"
+				}
+				{
+					id: "12DA900DB058EB39"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "Any #botania:mystical_flowers"
+					type: "item"
+				}
+			]
+			title: "植物魔法"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"强大的魔法mod，可以自己排列符文编辑法术，甚至实现各种自动化功能，伪装成魔法的科技模组。"
+				""
+				"无论是RPG还是自动化都是能手。"
+				""
+				"高版本最值得游玩的魔法mod，整合包作者强力推荐！"
+			]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "47C74070BCF35E6D"
+			rewards: [{
+				id: "718D6809F11EEF23"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1233890025E20A37"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "新生魔艺"
+			x: 1.5d
+			y: 0.5d
+		}
+	]
 	title: "魔法"
 }

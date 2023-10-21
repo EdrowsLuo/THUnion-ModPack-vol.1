@@ -7,14 +7,71 @@
 	id: "139C1A097990B957"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "4ED106BE11C944D5"
-		tasks: [{
-			id: "704964CA4C330BB6"
-			type: "checkmark"
-		}]
-		x: 0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"食用各种各样的食物来获得生命值加成。"
+				""
+				"总共可以获得40颗心的生命值加成，但是有一半的红心在食用200种食物后才能获得。"
+				""
+				"努力尝遍所有食物吧！"
+			]
+			icon: "solcarrot:food_book"
+			id: "4ED106BE11C944D5"
+			rewards: [{
+				id: "267D9D018B189458"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "704964CA4C330BB6"
+				type: "checkmark"
+			}]
+			title: "生活调味料"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"除了丰富了耕作、钓鱼和烹饪外，农夫乐事也提供了丰富的实用功能："
+				""
+				""
+				"一种改善作物生长土壤的方法，用于狩猎和采集的全新工具和武器，用于建筑的可爱装饰，以及许多实用的方块和物品等等。"
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "1C71D4F543A2B534"
+			shape: "hexagon"
+			tasks: [{
+				id: "4CC9C5E9FC2009EA"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "农夫乐事"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"MineColonies 是一个可以进行互动的城镇建设模组，"
+				"允许玩家在 Minecraft中创建自己繁荣的城镇。"
+				""
+				"它通过为玩家提供不同的可操作选项来创建玩家自己的城市，以及增强游戏的真实场景体验感。"
+				""
+				"模组中有许多 NPC工人，如："
+				"建筑师、工匠、农夫、渔夫、卫兵、矿工、冶炼工、烘焙师、厨师、快递员、牧民以及许多未就业人员等，同时也有新附魔：入侵者之终焉。同时 Mod 拥有这些工人专门的建筑，如：仓库、住宅、市政厅等。"
+			]
+			id: "36D65DDFF08FFA9B"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F68BAC9C5CD19B6"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			title: "模拟殖民地"
+			x: 1.0d
+			y: 1.0d
+		}
+	]
 	title: "养老休闲"
 }
