@@ -76,6 +76,11 @@
 			dependencies: ["16441C17305AF0F7"]
 			description: ["整合包中设置了10个特殊的核心，这些核心被用来制作一些mod中的关键道具，具体内容请在任务书对应章节查找。"]
 			id: "1A5895C031F61D6C"
+			rewards: [{
+				id: "7080C8C79F7AC865"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "04A557938591BB1D"
 				title: "独特的挑战"
@@ -83,6 +88,22 @@
 			}]
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1A5895C031F61D6C"]
+			description: ["建议从植物魔法和机械动力开始游戏，后续的一些mod的关键点会用到这两个mod。"]
+			id: "426E7AE8E6ADE1C6"
+			rewards: [{
+				id: "5E3BA09C8EBB0810"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D39818D3E8078D2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 	title: "开始"
