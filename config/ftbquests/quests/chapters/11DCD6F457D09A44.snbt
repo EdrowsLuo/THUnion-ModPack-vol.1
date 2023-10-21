@@ -7,6 +7,14 @@
 	id: "11DCD6F457D09A44"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "57DC29D2945CE2E1"
+		tasks: [{
+			id: "221C92ABAC11EB6B"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
 	title: "魔法"
 }

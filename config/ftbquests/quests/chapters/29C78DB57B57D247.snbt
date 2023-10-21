@@ -7,6 +7,14 @@
 	id: "29C78DB57B57D247"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "01F2D513938EF250"
+		tasks: [{
+			id: "283108B57480CD32"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.5d
+	}]
 	title: "存储和自动化"
 }

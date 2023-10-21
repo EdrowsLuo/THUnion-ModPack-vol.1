@@ -7,6 +7,14 @@
 	id: "139C1A097990B957"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4ED106BE11C944D5"
+		tasks: [{
+			id: "704964CA4C330BB6"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 	title: "养老休闲"
 }

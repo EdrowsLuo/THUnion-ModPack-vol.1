@@ -7,6 +7,14 @@
 	id: "6B72932EEEE598E0"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "55BFA7854EA3CF17"
+		tasks: [{
+			id: "68EE60CAF39159A2"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
 	title: "RPG类mod"
 }

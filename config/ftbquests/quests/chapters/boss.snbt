@@ -7,16 +7,476 @@
 	id: "010CE87CBD67DCA7"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "40E84288D094F738"
-		tasks: [{
-			entity: "minecraft:wither"
-			id: "63ED2C2E2A9D21FA"
-			type: "kill"
-			value: 1L
-		}]
-		x: -6.0d
-		y: -4.0d
-	}]
+	quests: [
+		{
+			id: "3FDC1CB9344D07E2"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "末影龙奖杯"
+						OffsetY: 0.8d
+						RotX: 0.0d
+						Scale: 0.2d
+						TrophyEntity: {
+							entityType: "minecraft:ender_dragon"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "37692D7DD9B35F75"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "42F3E2D752445AD5"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "监守者奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.7d
+						TrophyEntity: {
+							entityType: "minecraft:warden"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "0146B4BB09D2BC6D"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "605143E008AD6147"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "凋零奖杯"
+						OffsetY: 0.25d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "minecraft:wither"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "720ECDFBE0E66A30"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "1BD974E336592DC5"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "远古守卫者奖杯"
+						OffsetY: 0.6d
+						RotX: 0.0d
+						Scale: 0.6d
+						TrophyEntity: {
+							entityType: "minecraft:elder_guardian"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "7569666CE531973D"
+				type: "kill"
+				value: 3L
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "2098E605FED9F912"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "盖亚守护者奖杯"
+						OffsetY: 0.6d
+						RotX: 0.0d
+						Scale: 0.6d
+						TrophyEntity: {
+							entityType: "botania:doppleganger"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "215B355DB0517427"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "6999AE1F11423375"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "荒野奇美拉奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.4d
+						TrophyEntity: {
+							entityType: "ars_nouveau:wilden_boss"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "15A08380A0D8FBD4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "59B127EAEDCB4C01"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "先驱者奖杯"
+						OffsetY: 0.6d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "cataclysm:the_harbinger"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "2E64C2038A231CF7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "646E969361526E59"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "焰魔奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.4d
+						TrophyEntity: {
+							entityType: "cataclysm:ignis"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "569F672141120E1C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "5A66B074CFC47034"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "下界合金巨兽奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.25d
+						TrophyEntity: {
+							entityType: "cataclysm:netherite_monstrosity"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "47916E77A237BFD2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "3746C8F52FAF9563"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "末影守卫奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.4d
+						TrophyEntity: {
+							entityType: "cataclysm:ender_guardian"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "6426DC14B96167E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "5EF64357A498177D"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "利维坦奖杯"
+						OffsetY: 1.0d
+						RotX: 0.0d
+						Scale: 0.1d
+						TrophyEntity: {
+							entityType: "cataclysm:the_leviathan"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "4E14C8847379C8AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "766499946E63E29B"
+			tasks: [{
+				entity: "aether:slider"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "滑行魔石奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "aether:slider"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "088A3D982E91418D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "2A810C46018B2D84"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "武神女王奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "aether:valkyrie_queen"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "7920A08459DB7346"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "51F7572D9470D9D4"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "烈阳巨灵奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "aether:sun_spirit"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "3DBF96D431E5503E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "5BA1CBA05DFC4071"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "召唤师奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "blue_skies:summoner"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "5CCAF4DFF26145DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "4722035E2DD25C0A"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "炼金术师奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "blue_skies:alchemist"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "64AB9E54C3631113"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "28D759C93FACFC58"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "幽咽蛛王奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.15d
+						TrophyEntity: {
+							entityType: "blue_skies:arachnarch"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "77B9EA244DBF91C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "26B106446451FA58"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "trophymanager:trophy"
+					tag: {
+						BaseBlock: "supplementaries:checker_slab"
+						Name: "星熠破灭之树奖杯"
+						OffsetY: 0.5d
+						RotX: 0.0d
+						Scale: 0.4d
+						TrophyEntity: {
+							entityType: "blue_skies:starlit_crusher"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "49CACF829F35B37B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	title: "BOSS讨伐"
 }

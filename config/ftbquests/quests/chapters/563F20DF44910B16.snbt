@@ -7,6 +7,14 @@
 	id: "563F20DF44910B16"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2749971F8F87D18D"
+		tasks: [{
+			id: "1FECAE6D33842388"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: 1.0d
+	}]
 	title: "高质量生活"
 }
