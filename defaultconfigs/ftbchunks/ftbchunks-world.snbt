@@ -2,7 +2,7 @@
 	# Forced modes won't let players change their ally settings
 	# Default: "default"
 	# Valid values: "default", "forced_all", "forced_none"
-	ally_mode: "default"
+	ally_mode: "forced_all"
 	
 	# Fallback offline chunk loading behaviour for when 'force_load_mode' is set to 'default'
 	# Default: true
