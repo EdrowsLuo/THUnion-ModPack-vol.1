@@ -53,7 +53,7 @@ EntityEvents.spawned("minecraft:item", event => {
 
 EntityEvents.death(event => {
     if (event.source == "DamageSource (create.crush)" && event.entity.block.offset(0, 1, 0).id == "create:crushing_wheel_controller") {
-        if (event.entity.type == minecraft("player")) {
+        if (event.entity.type == MC("player")) {
             let controller = event.entity.block.offset(0, 1, 0)
             let itemEntity = controller.createEntity("item")
             itemEntity.y -= 0.5
