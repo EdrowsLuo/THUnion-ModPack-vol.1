@@ -5,8 +5,109 @@
 	group: ""
 	icon: "mekanism:teleportation_core"
 	id: "39FE4EF6D114A50A"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "核心挑战"
+	quests: [
+		{
+			id: "0825116BA612C1F1"
+			tasks: [{
+				id: "0AA3AD55BAFC6DB6"
+				item: "kubejs:ore_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "69DAB454EC400FD3"
+			tasks: [{
+				id: "7CBA3683C5255EBA"
+				item: "kubejs:magic_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "14716E00509EFC1C"
+			tasks: [{
+				id: "2D11A2F3569520F3"
+				item: "kubejs:flight_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "36E721269CB781F4"
+			tasks: [{
+				id: "640FD2249A02F976"
+				item: "kubejs:life_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "45AE162C6CF4684A"
+			tasks: [{
+				id: "0A4C9B244DA710C4"
+				item: "kubejs:mechanical_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "251A53F631D7BF7D"
+			tasks: [{
+				id: "2DFCE447647BDCAB"
+				item: "kubejs:craft_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "186E2A904CAA0DCD"
+			tasks: [{
+				id: "2DD107EDAF503B65"
+				item: "kubejs:distribution_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "6010B48130D7A97C"
+			tasks: [{
+				id: "4D520620EB8CE7E9"
+				item: "mekanism:teleportation_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "00278BE77A4BE7E4"
+			tasks: [{
+				id: "6C6FD8C6D37B24BB"
+				item: "kubejs:battle_core"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "59F5D3A418766431"
+			tasks: [{
+				id: "33FA8D8B3CB9B7F8"
+				item: "kubejs:treasure_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+	]
+	title: "特殊挑战"
 }

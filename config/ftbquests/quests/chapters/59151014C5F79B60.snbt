@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "59151014C5F79B60"
+	group: ""
+	icon: "minecraft:apple"
+	id: "59151014C5F79B60"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这是THUnion模组群的第一个自组mod，杂糅了大量的冒险、科技、魔法mod以及一些独特的挑战和轻度魔改，你的目标就是自由的体验各个mod内容。"
+				""
+				"任务书中会有大部分mod的简略介绍，需要更详细的信息时可以查阅游戏内手册或者mcmod中搜索对应的mod。"
+				""
+				"那么，开始撸树吧！"
+			]
+			icon: "minecraft:apple"
+			id: "469580DCE52EEE62"
+			rewards: [{
+				id: "02AE3F41A335128B"
+				item: "akashictome:tome"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [
+				{
+					id: "054E3407B8361BF6"
+					title: "开局"
+					type: "checkmark"
+				}
+				{
+					id: "066BF8074C5FF497"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["469580DCE52EEE62"]
+			description: [
+				"这个整合包里的BOSS被更改的非常强大（大部分），建议做好准备后再进行挑战。"
+				""
+				"对BOSS进行群殴也是一个好选择。"
+			]
+			id: "16441C17305AF0F7"
+			rewards: [{
+				id: "14B4C1F867410DBD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6875C427CF107C00"
+				title: "BOSS很强很强！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16441C17305AF0F7"]
+			description: ["整合包中设置了10个特殊的核心，这些核心被用来制作一些mod中的关键道具，具体内容请在任务书对应章节查找。"]
+			id: "1A5895C031F61D6C"
+			tasks: [{
+				id: "04A557938591BB1D"
+				title: "独特的挑战"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "开始"
+}

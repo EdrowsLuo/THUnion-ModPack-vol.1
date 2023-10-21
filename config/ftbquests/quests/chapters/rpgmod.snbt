@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rpgmod"
+	group: "4E004EC97D8BFD75"
+	icon: "kubejs:battle_core"
+	id: "6B72932EEEE598E0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "RPG类mod"
+}
