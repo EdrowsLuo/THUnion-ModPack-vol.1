@@ -7,30 +7,490 @@
 	id: "55F6BA0FA7F30991"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		icon: {
-			Count: 1b
-			id: "minecraft:diamond_helmet"
-			tag: {
-				Damage: 0
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
 			}
+			id: "26535F7D2971ABB3"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set head @p 2"
+				id: "208155E9914A0362"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "26B029EC2F7A2282"
+				item: "kubejs:treasure_core"
+				type: "item"
+			}]
+			title: "第二个头盔"
+			x: -6.0d
+			y: -3.0d
 		}
-		id: "26535F7D2971ABB3"
-		rewards: [{
-			command: "/curios add head @p 1"
-			id: "208155E9914A0362"
-			team_reward: false
-			type: "command"
-		}]
-		tasks: [{
-			consume_items: true
-			id: "26B029EC2F7A2282"
-			item: "kubejs:treasure_core"
-			type: "item"
-		}]
-		title: "第二个头盔"
-		x: -6.0d
-		y: -3.0d
-	}]
+		{
+			icon: "artifacts:panic_necklace"
+			id: "1D77391D17C9153F"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set necklace @p 2"
+				id: "314088799BB6C6AE"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					icon: "kubejs:treasure_core"
+					id: "6B07D76F27B45F43"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6ECBD1E94A62C9A2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:necklace"
+						}
+					}
+					title: "Any #curios:necklace"
+					type: "item"
+				}
+			]
+			title: "第二个项链"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: ["抱歉，暂时没有"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "0CCAA332E61161E2"
+			tasks: [{
+				id: "286CD68932DB0E0F"
+				type: "checkmark"
+			}]
+			title: "第二个背包"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: ["抱歉，暂时没有"]
+			icon: "botania:invisibility_cloak"
+			id: "0BEF6F5F9E31EB2D"
+			tasks: [{
+				id: "4974C1AB709BE776"
+				type: "checkmark"
+			}]
+			title: "第二个胸饰"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: ["抱歉，暂时没有"]
+			icon: "l2artifacts:perfection_bracelet_5"
+			id: "7713ABB97B953A55"
+			tasks: [{
+				id: "1090FB2F07DCE014"
+				type: "checkmark"
+			}]
+			title: "第二个手环"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			icon: "artifacts:power_glove"
+			id: "686B188C430BD761"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set hands @p 3"
+				id: "23F74A482B694BD6"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "7A5AA159C6F96C44"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7ADACB7E9D5E3C68"
+					item: {
+						Count: 1b
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "143A4A4BF6660B3C"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1BDA84008A30F946"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+			]
+			title: "第三个手饰"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "ars_nouveau:ring_of_lesser_discount"
+			id: "01AE640EF9119C37"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set ring @p 3"
+				id: "521F820FB1ED7570"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6913F7BB23B43DD7"
+				item: "kubejs:treasure_core"
+				type: "item"
+			}]
+			title: "第三个戒指"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["将你多余的腰带换成一个新的槽位"]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_toolbelt"
+				tag: {
+					id: "16543375-7bf2-4c3a-9596-edd8c7d2ab58"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/rope"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
+					"toolbelt/strap_slot1_material": "strap1/leather"
+				}
+			}
+			id: "4BE07227530C4CBF"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set belt @p 2"
+				id: "11840FF55DC22334"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "08DDF4819E42DC25"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "224FCD404F749543"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2FA4173109DAA06C"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7066892407FDADEC"
+					item: "artifacts:antidote_vessel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "016F9802BDBA4BA9"
+					item: "artifacts:universal_attractor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "51F9897805475344"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DE380EED79C1778"
+					item: "artifacts:helium_flamingo"
+					type: "item"
+				}
+			]
+			title: "第二个腰带"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["抱歉，暂时没有"]
+			icon: "botania:diva_charm"
+			id: "6BE02BF5014CEA08"
+			tasks: [{
+				id: "43E72FF4D2B6C12F"
+				type: "checkmark"
+			}]
+			title: "第二个护符"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["抱歉，暂时没有"]
+			icon: "artifacts:running_shoes"
+			id: "1994F6AA7D03FAC5"
+			tasks: [{
+				id: "1D9BA3ADFE16AD47"
+				type: "checkmark"
+			}]
+			title: "第二双鞋子"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01AE640EF9119C37"]
+			icon: "ars_nouveau:ring_of_lesser_discount"
+			id: "3E5DE6F4A4E9DF74"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set ring @p 4"
+				id: "1F059A684DC4F7A9"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "750F61A131D3A412"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "324C7760F6ABAFBB"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "22A92237F595CC2E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:ring"
+						}
+					}
+					title: "Any #curios:ring"
+					type: "item"
+				}
+			]
+			title: "第四个戒指"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E5DE6F4A4E9DF74"]
+			icon: "ars_nouveau:ring_of_lesser_discount"
+			id: "4574D8C302E9FC4C"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set ring @p 5"
+				id: "2CE5CDF46B32458B"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "42606ED40611AC4E"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "144808E6FD4E16E2"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "35D57E4F6D71ACE4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:ring"
+						}
+					}
+					title: "Any #curios:ring"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "410014B91D6CD19D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "curios:ring"
+						}
+					}
+					title: "Any #curios:ring"
+					type: "item"
+				}
+			]
+			title: "第五个戒指"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4574D8C302E9FC4C"]
+			icon: "ars_nouveau:ring_of_lesser_discount"
+			id: "39B4F5DF883DC275"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set ring @p 6"
+				id: "4C6941C38E94886D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "073B53F7A217E3D0"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "66D0BCCE6D1870A1"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+			]
+			title: "第六个戒指"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26535F7D2971ABB3"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0498F63E2EFEE5CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set head @p 3"
+				id: "3B68C6ED13DA6B0C"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "7F32263E4F848FE0"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1DA7732F892C8321"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+			]
+			title: "第三个头盔"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39B4F5DF883DC275"]
+			icon: "ars_nouveau:ring_of_lesser_discount"
+			id: "4541A95598227E43"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios set ring @p 7"
+				id: "583632F048A705E9"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "3C3B4830E332184D"
+					item: "kubejs:treasure_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "11B178CFC3407EFA"
+					item: "kubejs:battle_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4F2EB55A2DA6ECF8"
+					item: "ars_elemental:base_bangle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "589EEBD0F21AA6F1"
+					item: "ars_elemental:base_bangle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01DE1A9680EF98A7"
+					item: "ars_elemental:base_bangle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1254550551744470"
+					item: "ars_elemental:base_bangle"
+					type: "item"
+				}
+			]
+			title: "第七个指环"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
 	title: "饰品栏商店"
 }
